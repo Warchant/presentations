@@ -8,9 +8,21 @@ The purpose of a unit test is to verify the behavior of a relatively small piece
 
 +++
 
+**unit test**
+
+![](https://i.imgur.com/6gxwNz9.png)
+
++++
+
 **integration test**
 
 On the other hand, integration tests demonstrate that different parts of a system work together in the real-life environment. They validate complex scenarios (we can think of integration tests as a user performing some high-level operation within our system), and usually require external resources, like databases or web servers, to be present.
+
++++
+
+**integration test**
+
+![](https://i.imgur.com/Akys1PO.png)
 
 +++
 
