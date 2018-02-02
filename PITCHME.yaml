@@ -3,5 +3,5 @@ slide-number: true
 
 footnote : "© 2018 Soramitsu LLC"
 
-transition : concave
+transition : none
 mousewheel : false
