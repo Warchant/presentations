@@ -32,6 +32,37 @@ Refers to the practice of comparing the results of running a program given a spe
 
 +++
 
+**regression test**
+
+```C++
+const auto TESTCASE = {
+	{"a", 5},
+	{"a", 6},
+	{"b", 1}
+};
+
+const auto EXPECTED = {
+	{"a", 6},
+	{"b", 1}
+};
+
+TEST(Map, SameKeyInsert){
+	auto db = map();
+	for(const auto& c: TESTCASE){
+		auto key = c.first();
+		auto val = c.second();
+		db->insert(key, val);
+	}
+	for(const auto& e: EXPECTED){
+		auto actual = db->find(e.first());
+		auto expected = e.second();
+		ASSERT_EQ(actual, expected);
+	}
+}
+```
+
++++
+
 **system test**
 
 System testing of software or hardware is testing conducted on a complete, integrated system to evaluate the system's compliance with its specified requirements.
