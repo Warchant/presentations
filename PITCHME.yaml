@@ -1,7 +1,7 @@
 theme: beige
 slide-number: true
 
-footnote : "© 2017 Soramitsu LLC"
+footnote : "© 2018 Soramitsu LLC"
 
 transition : concave
-mousewheel : true
+mousewheel : false

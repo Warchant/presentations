@@ -22,10 +22,11 @@ B b(new MockA());
 B c(new ConcreteA());
 ```
 
-@[1](our interface)
-@[3-7](class, which depends on A)
-@[9](real implementation of class A)
-@[10](mock implementation of class A)
+@[5-9](class, which depends on A)
+@[1-3](A's interface)
+@[11](real implementation of class A)
+@[12](mock implementation of class A)
+@[14-15](usage)
 
 +++
 

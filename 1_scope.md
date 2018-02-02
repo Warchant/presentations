@@ -2,7 +2,7 @@
 
 - terms
 - test framework(s)
-- testable code
 - dependency injection
+- testable code
 - test organization
 - some rules

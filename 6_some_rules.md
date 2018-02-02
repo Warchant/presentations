@@ -2,13 +2,13 @@
 
 +++
 
-always inject dependencies using static/dynamic polymorphism or with use of special libs such as `boost::di`. 
+**always inject dependencies using static/dynamic polymorphism** or with use of special libs such as `boost::di`. 
 
 it allows you to replace class dependencies in tests with mocks -- in fact, this allows you to write unit tests for class with dependencies.
 
 +++
 
-make your tests as linear as possible -- if test has branch conditions like this:
+**make your tests as linear as possible** -- if test has branch conditions like this:
 
 ```C++
 auto a = testable_method();
@@ -25,17 +25,17 @@ every test case should test single execution path.
 
 +++
 
-follow project test structure
+**follow project test structure**
 
 +++
 
-always test interface (do black-box testing), not implementation.
+**always test interface (do black-box testing), not implementation.**
 
 tests which exploit implementation details (white-box tests) must be separated from the rest.
 
 +++
 
-never write "private" free functions, which are inside cpp files.
+**never write "private" free functions, which are inside cpp files.**
 
 if method exists but not accessible from outside, it means that it is not possible to write a test for this method.
 
@@ -43,11 +43,11 @@ better make a separate utils class/package, which will provide these methods for
 
 +++
 
-test all public API of your component.
+**test all public API of your component.**
 
 +++
 
-use test coverage metrics to write quality tests. 
+**use test coverage metrics** to write quality tests. 
 
 https://docs.codecov.io/docs/about-code-coverage
 

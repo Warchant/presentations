@@ -6,13 +6,13 @@
 
 ---?include=2_test_frameworks.md
 
----?include=3_1_testable_code.md
-
----?include=3_2_some_rules.md
-
 ---?include=4_di.md
 
+---?include=3_testable_code.md
+
 ---?include=5_test_organization.md
+
+---?include=6_some_rules.md
 
 ---
 
