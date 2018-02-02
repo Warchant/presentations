@@ -1,0 +1,7 @@
+theme: beige
+slide-number: true
+
+footnote : "© 2017 Soramitsu LLC"
+
+transition : concave
+mousewheel : true
