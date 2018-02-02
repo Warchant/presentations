@@ -5,4 +5,5 @@
 - dependency injection
 - testable code
 - test organization
+- framework
 - some rules

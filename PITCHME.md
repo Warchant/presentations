@@ -12,7 +12,9 @@
 
 ---?include=5_test_organization.md
 
----?include=6_some_rules.md
+---?include=6_framework.md
+
+---?include=7_some_rules.md
 
 ---
 
