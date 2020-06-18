@@ -30,3 +30,7 @@ Cons:
 CQRS - Command Query Responsibility Segregation
 
 <img src="./cqrs.png" width=500px />
+
++++
+
+## Examples?

@@ -46,3 +46,7 @@ Problems - Solutions:
 +++
 
 <img src="./PatternsRelatedToMicroservices.jpg" width=1000px />
+
++++
+
+## Examples?

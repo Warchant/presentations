@@ -58,3 +58,8 @@ Considerations
 - complex to implement, mainly because it is async
 - hard to achieve atomic transactions
 - hard to maintain event-processor component contracts
+
+
++++
+
+## Examples?
