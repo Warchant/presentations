@@ -1,0 +1,6 @@
+slide-number: true
+code-line-numbers : true
+eager-loading : true
+
+transition : none
+mousewheel : false
