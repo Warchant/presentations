@@ -1,4 +1,4 @@
-##### Event/Command Sourcing + CQRS
+#### Pattern: Event/Command Sourcing + CQRS
 
 <img src="./event_sourcing.jpeg" />
 

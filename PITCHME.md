@@ -12,8 +12,6 @@
 
 ---
 
-## Patterns
-
 ---?include=7_event_sourcing.md
 
 ---
